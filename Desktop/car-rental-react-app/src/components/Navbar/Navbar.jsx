@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from './Navbar.modules.css'
+import styles from './Navbar.module.css'
 import {AiOutlineMenu, AiOutlineclose, AiOutlineSearch, AiOutlineUser} from 'react-icons/ai'
-import logo from '../../images/driveLogo.png'
+import logo from '../../images/logo.png'
 
 const Navbar = () => {
   return (
@@ -12,10 +12,13 @@ const Navbar = () => {
                 <li><a href="/">Learn More</a></li>
                 <li><a href="/">Log In</a></li>
                 <li><a href="/">Sign Up</a></li>
-                <li><AiOutlineSearch/></li>
-                <li><AiOutlineUser/></li>
+                <li><AiOutlineSearch size={25} style={{marginTop: '6px'}}/></li>
+                <li><AiOutlineUser size={25} style={{marginTop: '6px'}}/></li>
             </ul>
         </nav>
+        <div className={styles.mobile_btn}>
+            <AiOutlineMenu size={25} />
+        </div>
     </header>
   )
 }
