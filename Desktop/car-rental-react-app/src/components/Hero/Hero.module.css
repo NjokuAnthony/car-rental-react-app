@@ -2,7 +2,7 @@
     background: url(./../../images/olav-tvedt-6lSBynPRaAQ-unsplash.jpg) no-repeat center/cover;
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 
 form {
@@ -38,6 +38,12 @@ form .input_text {
     display: flex;
     flex-direction: column; 
 }
+
+.from, .until {
+    border-left: 1px solid #333;
+    padding-left: 6px;
+}
+
 form input {
     background: transparent;
     border: none;
@@ -61,12 +67,12 @@ form input {
         margin: auto 1rem;
     }
 
-    .text, .form, .until {
+    .text, .from, .until {
         width: 100%;
         padding: .2rem;
     }
 
-    .form, .until{
+    .from, .until{
         border-left: none;
     }
 
@@ -75,7 +81,7 @@ form input {
     }
 
     .border {
-        border-top: 1px solid #333;
+        border-top: 2px solid #333;
         padding: 8px;
     }
 
@@ -85,7 +91,7 @@ form input {
 
     .search_btn {
         width: 100%;
-        border-top: 1px solid #333;
+        border-top: 2px solid #333;
         padding: 8px 0;
     }
 
