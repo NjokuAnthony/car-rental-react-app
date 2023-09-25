@@ -59,8 +59,20 @@ const Find = () => {
             make='Audi' />
         </SwiperSlide>
         <SwiperSlide>
-            <Card image='https://images.pexels.com/photos/892522/pexels-photo-892522.jpeg?auto=compress&cs=tinysrgb&w=600'
-            make='BMW' />
+            <Card image='https://images.unsplash.com/photo-1632441730372-d8509de481d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZlcnJhcml8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
+            make='Fafarri' />
+        </SwiperSlide>
+        <SwiperSlide>
+            <Card image='https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=600'
+            make='Lamboghini' />
+        </SwiperSlide>
+        <SwiperSlide>
+            <Card image='https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9yc2hlJTIwY2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
+            make='Porsche' />
+        </SwiperSlide>
+        <SwiperSlide>
+            <Card image='https://images.pexels.com/photos/17507672/pexels-photo-17507672/free-photo-of-white-toyota-86-parked-in-a-residential-courtyard.jpeg?auto=compress&cs=tinysrgb&w=600'
+            make='Toyota' />
         </SwiperSlide>
         <SwiperSlide>
             <Card image='https://images.unsplash.com/photo-1632548260498-b7246fa466ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJvbGxzJTIwcm95Y2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
@@ -75,20 +87,8 @@ const Find = () => {
             make='Ford' />
         </SwiperSlide>
         <SwiperSlide>
-            <Card image='https://images.unsplash.com/photo-1632441730372-d8509de481d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZlcnJhcml8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-            make='Fafarri' />
-        </SwiperSlide>
-        <SwiperSlide>
-            <Card image='https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=600'
-            make='Lamboghini' />
-        </SwiperSlide>
-        <SwiperSlide>
-            <Card image='https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9yc2hlJTIwY2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
-            make='Porshe' />
-        </SwiperSlide>
-        <SwiperSlide>
-            <Card image='https://images.pexels.com/photos/17507672/pexels-photo-17507672/free-photo-of-white-toyota-86-parked-in-a-residential-courtyard.jpeg?auto=compress&cs=tinysrgb&w=600'
-            make='Toyota' />
+            <Card image='https://images.pexels.com/photos/892522/pexels-photo-892522.jpeg?auto=compress&cs=tinysrgb&w=600'
+            make='BMW' />
         </SwiperSlide>
     </Swiper>
         </div>
