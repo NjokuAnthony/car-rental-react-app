@@ -35,4 +35,11 @@
         height: 100px;
         padding: 8px;
     }
+
+    .footer .container img {
+        display: none;
+    }
+    .footer .container button {
+        width: 100%;
+    }
 }
